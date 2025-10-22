@@ -1,7 +1,5 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
 import cx from 'clsx'
 import { useTranslate } from 'lib/contexts/translate'
 
@@ -12,17 +10,10 @@ interface HeaderProps {
 
 // 2. Use the props in the function
 export default function Header({ locale }: HeaderProps) {
-  const { homeTranslate } = useTranslate()
-  
-  // 3. Use the 'locale' prop for the initial state
-  const [lang, setLang] = useState<'ar' | 'en'>(locale)
-
-  useEffect(() => {
-    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
-  }, [lang])
+  const { homeTranslate, locale: currentLocale, setLocale } = useTranslate()
 
   const toggleLang = () => {
-    setLang(lang === 'ar' ? 'en' : 'ar')
+    setLocale(currentLocale === 'ar' ? 'en' : 'ar')
   }
 
   return (
@@ -30,7 +21,7 @@ export default function Header({ locale }: HeaderProps) {
       <header className='w-full py-5 border-b border-slate-200 dark:border-slate-800/80'>
         <div className='mx-auto max-w-7xl px-4 text-center'>
           <h1 className='text-slate-900 dark:text-slate-200 font-semibold text-lg'>
-            {lang === 'ar' ? homeTranslate.title : 'استبيان 🔥 الاحتراق الوظيفي 🔥 للعاملين'}
+            {homeTranslate.title}
           </h1>
         </div>
       </header>
@@ -47,7 +38,7 @@ export default function Header({ locale }: HeaderProps) {
             'disabled:cursor-not-allowed disabled:bg-slate-900/60 disabled:dark:bg-sky-500/60'
           )}
         >
-          {lang === 'ar' ? 'English' : 'العربية'}
+          {currentLocale === 'ar' ? 'English' : 'العربية'}
         </button>
       </div>
     </>
