@@ -7,7 +7,7 @@ import { useTranslate } from 'lib/contexts/translate'
 
 // 1. Define the props interface
 interface HeaderProps {
-  locale: 'en' | 'ar'
+  locale: 'ar' | 'en'
 }
 
 // 2. Use the props in the function
@@ -15,14 +15,14 @@ export default function Header({ locale }: HeaderProps) {
   const { homeTranslate } = useTranslate()
   
   // 3. Use the 'locale' prop for the initial state
-  const [lang, setLang] = useState<'en' | 'ar'>(locale)
+  const [lang, setLang] = useState<'ar' | 'en'>(locale)
 
   useEffect(() => {
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
   }, [lang])
 
   const toggleLang = () => {
-    setLang(lang === 'en' ? 'ar' : 'en')
+    setLang(lang === 'ar' ? 'en' : 'ar')
   }
 
   return (
@@ -30,7 +30,7 @@ export default function Header({ locale }: HeaderProps) {
       <header className='w-full py-5 border-b border-slate-200 dark:border-slate-800/80'>
         <div className='mx-auto max-w-7xl px-4 text-center'>
           <h1 className='text-slate-900 dark:text-slate-200 font-semibold text-lg'>
-            {lang === 'en' ? homeTranslate.title : 'استبيان الاحتراق الوظيفي'}
+            {lang === 'ar' ? homeTranslate.title : 'استبيان 🔥 الاحتراق الوظيفي 🔥 للعاملين'}
           </h1>
         </div>
       </header>
@@ -47,7 +47,7 @@ export default function Header({ locale }: HeaderProps) {
             'disabled:cursor-not-allowed disabled:bg-slate-900/60 disabled:dark:bg-sky-500/60'
           )}
         >
-          {lang === 'en' ? 'العربية' : 'English'}
+          {lang === 'ar' ? 'English' : 'العربية'}
         </button>
       </div>
     </>
