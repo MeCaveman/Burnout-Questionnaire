@@ -1,12 +1,18 @@
 'use client'
 
-import { ReactNode } from 'react'
-
 import { TranslateProvider } from 'lib/contexts/translate'
 
-type TranslateProps = {
+import translations from 'lib/translate/locales/en.json' // <-- Make sure this says en.json
+import { ReactNode } from 'react'
+
+type Props = {
   children: ReactNode
 }
-export default function Translate({ children }: TranslateProps) {
-  return <TranslateProvider locale='en'>{children}</TranslateProvider>
+
+export default function Translate({ children }: Props) {
+  return (
+    <TranslateProvider value={translations}>
+      {children}
+    </TranslateProvider>
+  )
 }
