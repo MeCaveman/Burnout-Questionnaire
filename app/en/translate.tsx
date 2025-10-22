@@ -1,6 +1,6 @@
 'use client'
 
-import { TranslateProvider } from 'lib/contexts/translate'
+import translations from '../../lib/translate/locales/en.json'
 
 import translations from 'lib/translate/locales/en.json' // <-- Make sure this says en.json
 import { ReactNode } from 'react'
