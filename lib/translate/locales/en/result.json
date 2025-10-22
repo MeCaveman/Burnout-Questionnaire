@@ -13,5 +13,10 @@
   "signs": "Signs of Burnout",
   "cancelText": "Close",
   "downloadText": "Download Image",
-  "imageCreated": "Image created on burnout-questionnaire.vercel.app"
+  "imageCreated": "Image created on burnout-questionnaire.vercel.app",
+  "burnoutLevels": {
+    "HIGH": "High",
+    "MODERATE": "Moderate",
+    "LOW": "Low"
+  }
 }

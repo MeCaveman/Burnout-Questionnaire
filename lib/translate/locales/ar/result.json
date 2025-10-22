@@ -13,5 +13,10 @@
   "signs": "مؤشرات الاحتراق الوظيفي",
   "cancelText": "إغلاق",
   "downloadText": "تحميل الصورة",
-  "imageCreated": "تم إنشاء الصورة على burnout-questionnaire.vercel.app"
+  "imageCreated": "تم إنشاء الصورة على burnout-questionnaire.vercel.app",
+  "burnoutLevels": {
+    "HIGH": "عالي",
+    "MODERATE": "متوسط",
+    "LOW": "منخفض"
+  }
 }
