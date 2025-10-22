@@ -1,9 +1,10 @@
 'use client'
 
-import translations from 'lib/translate/locales/en.json'
+import translations from '../../lib/translate/locales/en.json'
 
 import { ReactNode } from 'react'
-import { TranslateProvider } from 'lib/contexts/translate' // <-- This also needs to be an absolute path
+
+import { TranslateProvider } from '../../lib/contexts/translate'
 
 type Props = {
   children: ReactNode
