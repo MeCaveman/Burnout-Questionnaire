@@ -14,4 +14,9 @@ _* This questionnaire does not replace nor is it intended to replace a diagnosis
 
 ## License
 
-The MIT License.
+The MIT License.[200~🔥 Burnout 🔥 Questionnaire for Workers
+Burnout Questionnaire 🔥 based on Maslach Burnout Inventory (MBI) to measure professional and job burnout.
+
+This Maslach Burnout Inventory (MBI) questionnaire consists of 22 statements about the professional's feelings and attitudes in their work and their relationship with their co-workers. Its function is to measure professional burnout. This test aims to measure the frequency and intensity with which Burnout is suffered.
+
+* This questionnaire does not replace nor is it intended to replace a diagnosis by mental health professionals.~

@@ -6,7 +6,7 @@ import { getTranslateFromMap } from 'lib/translate'
 import Modal from 'components/modal'
 import { BurnoutValues } from 'lib/burnout/types'
 
-const result = getTranslateFromMap('result', 'es')
+const result = getTranslateFromMap('result', 'ar')
 
 const resultMap: Record<BurnoutValues, string> = {
   HIGH: 'Alto',

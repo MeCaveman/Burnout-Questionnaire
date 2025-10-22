@@ -18,7 +18,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang='es' className={roboto.className}>
+    <html lang='ar' className={roboto.className}>
       <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link

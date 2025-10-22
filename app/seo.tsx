@@ -2,7 +2,7 @@
 
 import { getTranslateFromMap } from 'lib/translate'
 
-const seoContent = getTranslateFromMap('home', 'es')
+const seoContent = getTranslateFromMap('home', 'ar')
 
 export default function SeoIndex() {
   return (
