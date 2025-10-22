@@ -2,8 +2,10 @@
 
 import translations from '../../lib/translate/locales/en.json'
 
-import translations from 'lib/translate/locales/en.json' // <-- Make sure this says en.json
+
 import { ReactNode } from 'react'
+
+import { TranslateProvider } from '../../lib/contexts/translate'
 
 type Props = {
   children: ReactNode
