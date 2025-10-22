@@ -1,10 +1,10 @@
-import Translate from '../translate'
+import Translate from './translate'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Intro from 'components/intro'
 import Title from 'components/title'
 import Questions from 'components/questions'
-import ModalIndexPage from '../modal'
+import ModalIndexPage from './modal'
 
 export default function EnglishPage() {
   return (
