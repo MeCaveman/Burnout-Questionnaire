@@ -5,9 +5,17 @@ import Link from 'next/link'
 import cx from 'clsx'
 import { useTranslate } from 'lib/contexts/translate'
 
-export default function Header() {
+// 1. Define the props interface
+interface HeaderProps {
+  locale: 'en' | 'ar'
+}
+
+// 2. Use the props in the function
+export default function Header({ locale }: HeaderProps) {
   const { homeTranslate } = useTranslate()
-  const [lang, setLang] = useState<'en' | 'ar'>('en')
+  
+  // 3. Use the 'locale' prop for the initial state
+  const [lang, setLang] = useState<'en' | 'ar'>(locale)
 
   useEffect(() => {
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'

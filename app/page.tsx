@@ -10,7 +10,8 @@ export default function EnglishPage() {
   return (
     <Translate>
       <div className='w-full'>
-        <Header /> {/* locale prop removed */}
+        {/* Add the prop back */}
+        <Header locale='en' />
         <main role='main'>
           <div className='mx-auto max-w-7xl px-4 lg:px-8 pt-20 pb-16 text-slate-900 dark:text-slate-200'>
             <Intro />
@@ -24,4 +25,3 @@ export default function EnglishPage() {
     </Translate>
   )
 }
-
