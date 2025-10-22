@@ -15,9 +15,9 @@ export default function Footer() {
               rel='noreferrer'
               className='hover:text-slate-600 transition-colors font-medium'
             >
-              Nikolas Santis
+              MeCaveman
             </a>{' '}
-            | 2022
+            | 2025
           </p>
 
           <p className='text-sm text-slate-500'>

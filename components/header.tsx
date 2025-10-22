@@ -22,7 +22,7 @@ export default function Header({ locale }: HeaderProps) {
       </header>
 
       <div className='mt-4 w-full text-center'>
-        {locale === 'es' && (
+        {locale === 'ar' && (
           <Link
             href='/en'
             className={cx(
@@ -49,9 +49,9 @@ export default function Header({ locale }: HeaderProps) {
               'focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50',
               'disabled:cursor-not-allowed disabled:bg-slate-900/60 disabled:dark:bg-sky-500/60'
             )}
-            title='Cuestionario 🔥 Burnout 🔥 Laboral'
+            title='استبيان 🔥 الاحتراق الوظيفي 🔥 للعاملين'
           >
-            Versión en español
+            Arabic version
           </Link>
         )}
       </div>
