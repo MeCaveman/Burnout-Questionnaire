@@ -35,7 +35,7 @@ export default function Header({ locale }: HeaderProps) {
             )}
             title='🔥 Burnout 🔥 Questionnaire for Workers'
           >
-            English version
+            النسخة الإنجليزية
           </Link>
         )}
         {locale === 'en' && (
