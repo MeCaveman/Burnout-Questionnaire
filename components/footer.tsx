@@ -10,7 +10,7 @@ export default function Footer() {
           <p className='text-sm text-slate-500'>
             <span className='mr-1'>Developed by</span>
             <a
-              href='https://www.linkedin.com/in/nikosantis/'
+              href='https://www.linkedin.com/in/osama-alghamdi-130870384/'
               target={'_blank'}
               rel='noreferrer'
               className='hover:text-slate-600 transition-colors font-medium'
@@ -22,7 +22,7 @@ export default function Footer() {
 
           <p className='text-sm text-slate-500'>
             <a
-              href='https://github.com/nikosantis/burnout-questionnaire'
+              href='https://github.com/MeCaveman/Burnout-Questionnaire'
               target='_blank'
               rel='noreferrer'
               className='hover:text-slate-600 transition-colors font-medium'

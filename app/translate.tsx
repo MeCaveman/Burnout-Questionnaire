@@ -8,5 +8,5 @@ type TranslateProps = {
   children: ReactNode
 }
 export default function Translate({ children }: TranslateProps) {
-  return <TranslateProvider locale='ar' children={children} />
+  return <TranslateProvider locale='en' children={children} />
 }
