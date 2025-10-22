@@ -1,15 +1,15 @@
-import commonEsJson from './locales/ar/common.json'
-import homeEsJson from './locales/ar/home.json'
-import resultEsJson from './locales/ar/result.json'
+import commonArJson from './locales/ar/common.json'
+import homeArJson from './locales/ar/home.json'
+import resultArJson from './locales/ar/result.json'
 import commonEnJson from './locales/en/common.json'
 import homeEnJson from './locales/en/home.json'
 import resultEnJson from './locales/en/result.json'
 
 export type Locales = 'ar' | 'en'
 
-export type CommonTranslate = typeof commonEsJson
-export type HomeTranslate = typeof homeEsJson
-export type ResultTranslate = typeof resultEsJson
+export type CommonTranslate = typeof commonArJson
+export type HomeTranslate = typeof homeArJson
+export type ResultTranslate = typeof resultArJson
 
 export type TranslatesKeys = 'home' | 'result' | 'common'
 
@@ -36,9 +36,9 @@ export type TranslateContent<T extends TranslatesKeys> = T extends 'home'
   : CommonTranslate
 
 const AR = {
-  home: homeEsJson,
-  result: resultEsJson,
-  common: commonEsJson
+  home: homeArJson,
+  result: resultArJson,
+  common: commonArJson
 } as TranslatesType
 
 const EN = {
@@ -47,9 +47,9 @@ const EN = {
   common: commonEnJson
 } as TranslatesType
 
-const esEntries = Object.entries(AR) as TranslatesEntries
+const arEntries = Object.entries(AR) as TranslatesEntries
 const enEntries = Object.entries(EN) as TranslatesEntries
-const esMap = new Map(esEntries) as TranslatesMap
+const arMap = new Map(arEntries) as TranslatesMap
 const enMap = new Map(enEntries) as TranslatesMap
 
 type LocalesMap = {
@@ -58,7 +58,7 @@ type LocalesMap = {
 }
 
 export const localesMap: LocalesMap = {
-  ar: esMap,
+  ar: arMap,
   en: enMap
 }
 

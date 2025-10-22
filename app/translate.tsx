@@ -2,7 +2,7 @@
 
 import { ReactNode } from 'react'
 
-import { TranslateProvider } from 'lib/contexts/translate'
+import { TranslateProvider } from '../lib/contexts/translate'
 
 type TranslateProps = {
   children: ReactNode
