@@ -1,0 +1,71 @@
+[33mcommit 72d751503d2618573625949b3da27511d7009896[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Mon Dec 26 14:17:32 2022 -0300
+
+    feat: update readme and footer
+
+[33mcommit e790243d6d0d0a9e06721fbe3bce6877c63cbb5e[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Mon Dec 26 13:43:27 2022 -0300
+
+    feat: add error log
+
+[33mcommit 3a06e2a5307d5d9606d18180cee1d9f5c32d06e0[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Mon Dec 26 13:42:33 2022 -0300
+
+    feat: add axiom
+
+[33mcommit 9b8796aface5b20d954834fe0101b7a03ad88242[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Mon Dec 26 13:13:25 2022 -0300
+
+    feat: update nextjs and add analytics
+
+[33mcommit 97d36e76bb9479d02de0b7e1683c2c3d4fd00332[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Wed Dec 21 17:51:13 2022 -0300
+
+    feat: remove the og image and update the seo
+
+[33mcommit fe5cf92e68e8be06184ca4579c5cebed75e59e5b[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Fri Dec 16 19:31:38 2022 -0300
+
+    feat: update seo
+
+[33mcommit 8f67a2592ce830f37a728f81a7168a5dac6ca4d0[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Fri Dec 16 19:26:38 2022 -0300
+
+    feat: update og
+
+[33mcommit 43b84fa55b3527bcda5b612d63ea0ce68f751d82[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Fri Dec 16 19:25:56 2022 -0300
+
+    feat: update og
+
+[33mcommit 4775c8a33f634d1537758f535cefab2aeaf0a5a8[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Fri Dec 16 19:12:13 2022 -0300
+
+    feat: create a og api
+
+[33mcommit 544d2656140c0bb32b9e259f310578813d591c58[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Fri Dec 16 18:55:06 2022 -0300
+
+    feat: update styles and translates
+
+[33mcommit f78147dbf41e678e32655080905760e39044615f[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Thu Nov 3 19:11:16 2022 -0300
+
+    feat: upload to github
+
+[33mcommit a7cc0a2b7fcf308e805236243ff26b4d3cfe5901[m
+Author: nikosantis <nikosantis@gmail.com>
+Date:   Wed Nov 2 13:44:34 2022 -0300
+
+    Initial commit from Create Next App
