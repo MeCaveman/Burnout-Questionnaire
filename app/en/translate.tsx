@@ -1,10 +1,12 @@
 'use client'
 
-import translations from '../../lib/translate/locales/en.json'
+// 1. Use the absolute path alias (no ../../)
+import translations from 'lib/translate/locales/en.json'
+
+// 2. Also use the absolute path for your context
+import { TranslateProvider } from 'lib/contexts/translate'
 
 import { ReactNode } from 'react'
-
-import { TranslateProvider } from '../../lib/contexts/translate'
 
 type Props = {
   children: ReactNode
